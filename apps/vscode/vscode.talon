@@ -209,3 +209,30 @@ cell run above: user.vscode("jupyter.runallcellsabove.palette")
 cell run: user.vscode("jupyter.runcurrentcell")
 
 install local: user.vscode("workbench.extensions.action.installVSIX")
+
+
+# terminal convenience
+
+do vim:
+    insert("vim ")
+
+cd:
+    insert("cd ")
+
+mv:
+    insert("mv ")
+
+ls:
+    insert("ls ")
+
+rm:
+    insert("rm ")
+
+make dir:
+    insert("mkdir ")
+
+git:
+    insert("git ")
+
+do sea make:
+    insert("cmake ")
